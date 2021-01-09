@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="bottom right"><input type="button" id="btn_00" onclick="setButton(this)" /></td>
+            <td class="bottom left right"><input type="button" id="btn_01"  onclick="setButton(this)" /></td>
+            <td class="bottom left"><input type="button" id="btn_02"  onclick="setButton(this)"/></td>
+        </tr>
+        <tr>
+            <td class="top bottom right"><input type="button" id="btn_10" onclick="setButton(this)" /></td>
+            <td class="top bottom right left"><input type="button" id="btn_11"  onclick="setButton(this)"/></td>
+            <td class="top bottom left"><input type="button" id="btn_12"  onclick="setButton(this)"/></td>
+        </tr>
+        <tr>
+            <td class="top right"><input type="button" id="btn_20"  onclick="setButton(this)"/></td>
+            <td class="top right left"><input type="button" id="btn_21" onclick="setButton(this)" /></td>
+            <td class="top left"><input type="button" id="btn_22"  onclick="setButton(this)"/></td>
+        </tr>
+    </table>
+    <input type="button" id="btnReset" onclick="reset()" value="Reset"/>
+    <label id="txtResult"></label>
+
+</body>
+</html>
